@@ -1,0 +1,52 @@
+@font-face {
+  font-family: Barlow;
+  src: url("/Barlow/Barlow-Regular.ttf");
+}
+body {
+  margin: 0;
+  font-family: "Square Peg", Barlow, "Courier New", Courier, monospace;
+}
+
+nav,
+ul,
+li,
+h3 {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding: 10px;
+  background-image: url("../img/pexels-photo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5em;
+  padding: 18px 20px;
+}
+
+h3 {
+  font-size: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+nav {
+  float: right;
+  /* margin-left: 30%; */
+  padding: 10px;
+}
+
+a:hover {
+  background-color: white;
+  color: #ff565b;
+  border-top: 2px solid #ff565b;
+  border-radius: 0px 0px 10px 10px;
+}
